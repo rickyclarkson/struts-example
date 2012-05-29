@@ -15,6 +15,14 @@
       <param-name>config</param-name>
       <param-value>/WEB-INF/struts-config.xml</param-value>
     </init-param>
+	  <init-param>
+		  <param-name>cportlet-class</param-name>
+		  <param-value>org.apache.portals.bridges.struts.StrutsPortlet</param-value>
+	  </init-param>
+	  <init-param>
+		  <param-name>portlet-guid</param-name>
+		  <param-value>struts-example</param-value>
+	  </init-param>
     <!--
     <init-param>
          <param-name>chainConfig</param-name>
